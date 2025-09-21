@@ -1,0 +1,8 @@
+# CISC 375 - Web Development
+# Project 1 - Personal Website
+# Martin Miller
+
+This markdown file serves as the checklist to complete this instruction from the canvas assignment description: You must also submit a checklist of what you feel you have accomplished from the rubric above, and include your total expected score. 
+
+# Checklist of Items Accomplished from Rubric
+- 
