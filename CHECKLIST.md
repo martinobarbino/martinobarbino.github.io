@@ -10,3 +10,6 @@ This markdown file serves as the checklist to complete this instruction from the
     - Added a bit about me section
 - Created projects.html
     - Added 3 projects and descriptions of their purpose and the work performed
+    - Added one photo for each project
+
+    
