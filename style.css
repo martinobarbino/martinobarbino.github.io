@@ -32,10 +32,12 @@ nav li a:hover {
     cursor:pointer;
     background-color: darksalmon;
 }
-h1, h2, h3, h4, h5, h6 {
+.text-content {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h1, h2, h3, h4, h5, h6 {
     color: rgb(54, 97, 252);
 }
 ul {
@@ -43,21 +45,10 @@ ul {
 }
 img {
     color:rgb(109, 89, 29);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25rem;
-    height: 20rem
 }
 p {
     color:rgb(109, 89, 29);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .ust {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(54, 97, 252);
 }
