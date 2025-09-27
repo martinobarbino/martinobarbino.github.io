@@ -16,4 +16,4 @@ This markdown file serves as the checklist to complete this instruction from the
     - Added link to St. Thomas
 - Created fun.html
     - Added section describing fun stuff about me
-    
+    - Included media (images, videos, and/or links)
