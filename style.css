@@ -10,7 +10,6 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +18,14 @@ body {
     float: left;
     border-style: double;
     border-color: blue;
+    background-color: aquamarine;
 }
 .nav li a {
     display: block;
     text-align: center;
     padding: 1rem 1rem 1rem 1rem;
     text-decoration: none;
+    font-weight: bold;
     color:rgb(54, 97, 252)
 }
 nav li a:hover {
@@ -32,8 +33,31 @@ nav li a:hover {
     background-color: darksalmon;
 }
 h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(54, 97, 252);
 }
+ul {
+    color:rgb(109, 89, 29);
+}
+img {
+    color:rgb(109, 89, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 20rem
+}
 p {
-    color:rgb(109, 89, 29)
+    color:rgb(109, 89, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ust {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 97, 252);
 }
