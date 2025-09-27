@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(255, 228, 194);
+} 
+.headshot {
+    height: 20rem;
+    width: 15rem;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav li {
+    float: left;
+    border-style: double;
+    border-color: blue;
+}
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    color:rgb(54, 97, 252)
+}
+nav li a:hover {
+    cursor:pointer;
+    background-color: darksalmon;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(54, 97, 252);
+}
+p {
+    color:rgb(109, 89, 29)
+}
