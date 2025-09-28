@@ -17,3 +17,6 @@ This markdown file serves as the checklist to complete this instruction from the
 - Created fun.html
     - Added section describing fun stuff about me
     - Included media (images, videos, and/or links)
+
+
+- Implemented navigation between all four pages with a navigation bar
