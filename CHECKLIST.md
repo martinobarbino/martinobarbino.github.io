@@ -20,3 +20,5 @@ This markdown file serves as the checklist to complete this instruction from the
 
 
 - Implemented navigation between all four pages with a navigation bar
+
+- Followed best practices with links, images, font size, and image size
