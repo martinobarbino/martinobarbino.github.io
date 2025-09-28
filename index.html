@@ -7,23 +7,40 @@
   <meta name="description" content="" />
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
 </head>
 <body>
-  <ul class="nav">
-    <li><a href="index.html" target="_self">Home</a></li>
-    <li><a href="projects.html" target="_self">Projects</a></li>
-    <li><a href="resume.html" target="_self">Resume</a></li>
-    <li><a href="fun.html" target="_self">Fun Stuff</a></li>
-  </ul>
-  <div class="text-content">
-    <img src="/images/headshot.jpeg" alt="Headshot of me" class="headshot"/>
-    <h1>A bit about me!</h1>
-    <p>
-      My name is Martin Miller, and I am a computer science major in my
-      junior year. 
-      My goals after college include starting a career in software development,
-      running a 5k, and getting started on a coding side project.
-    </p>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Martin's Website</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="fun.html">Fun Stuff</a></li>
+      </ul>
+    </div>
   </div>
+  <div class="grid-container fluid">
+    <div class="grid-x grid-padding-x align-middle">
+      <div class="cell small-12 medium-4 text-center">
+        <img src="images/headshot.jpeg" alt="Headshot of me" class="headshot"/>
+      </div>
+      <div class="cell small-12 medium-8">
+        <h1>A bit about me!</h1>
+        <p>
+          My name is Martin Miller, and I am a computer science major in my
+          junior year. 
+          My goals after college include starting a career in software development,
+          running a 5k, and getting started on a coding side project.
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>

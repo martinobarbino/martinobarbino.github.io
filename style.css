@@ -3,35 +3,8 @@ body {
 } 
 .headshot {
     height: auto;
-    width: 15rem;
+    width: 20rem;
     max-width: 100%;
-}
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.nav li {
-    float: left;
-    border-style: double;
-    border-color: blue;
-    background-color: aquamarine;
-}
-.nav li a {
-    display: block;
-    text-align: center;
-    padding: 1rem 1rem 1rem 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    color:rgb(54, 97, 252)
-}
-nav li a:hover {
-    cursor:pointer;
-    background-color: darksalmon;
 }
 .text-content {
     display: flex;
@@ -44,19 +17,22 @@ nav li a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: rgb(54, 97, 252);
 }
-ul {
+.cell ul,
+.card-section ul {
     color:rgb(109, 89, 29);
+    font-size: clamp(1rem, 1rem + 0.5vw, 1.375rem);
 }
 img {
     color:rgb(109, 89, 29);
 }
-p {
+.cell p,
+.card-section p {
     color:rgb(109, 89, 29);
+    font-size: clamp(1rem, 1rem + 0.5vw, 1.375rem);
 }
 .ust {
     color: rgb(54, 97, 252);
 }
-
 .north-shore
 .i18,
 .dev-box,

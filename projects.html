@@ -7,61 +7,74 @@
   <meta name="description" content="" />
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <ul class="nav">
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="projects.html" target="_self">Projects</a></li>
-            <li><a href="resume.html" target="_self">Resume</a></li>
-            <li><a href="fun.html" target="_self">Fun Stuff</a></li>
-        </ul>
-    </nav>
-    <div class="text-content">
-        <h1>Projects</h1>
-        <h2>Tech Lockdown Internship</h2>
-        <h3>Enabling i18 Support for Marketing Site</h3>
-        <img src="/images/i18.png" alt="The translated side of the Tech Lockdown website" class="i18"/>
-        <p>The purpose of this project was to try to extend the company's marketing
-            content to other languages in order to attract users from non-english 
-            speaking locales.
-        </p>
-        <ul>
-            <li>Extended a translation plugin for the legacy CMS software
-                to enable the site's marketing content to be translated
-            </li>
-            <li>Implemented support for translated content on the marketing
-                site
-            </li>
-            <li>Consolidated front-end code to be more maintainable in the future
-
-            </li>
-        </ul>
-        <h3>Quality of Life Improvements On Dev Side of Marketing Site</h3>
-        <img src="/images/dev-box.png" alt="The development-side editing box" class="dev-box"/>
-        <p>The purpose of this was to make editing marketing content easier
-            by having buttons that would link to relevant data about the content 
-            being edited on the dev side.
-        </p>
-        <ul>
-            <li>Added buttons on dev side that allowed for easier editing of content
-            </li>
-            <li>Ported these changes over to new i18 side of marketing site as well
-
-            </li>
-        </ul>
-        <h2>Harvard's CS50x</h2>
-        <h3>Inspiration Generator</h3>
-        <img src="/images/inspiration-generator.png" alt="Screenshot from the project" class="inspiration-generator"/>
-        <p>The purpose of this project was to experiment building a web application
-            that utilized dynamic elements requiring actual code.
-        </p>
-        <ul>
-            <li>Using Python and Django, developed a web app that dynamically
-                displayed inspirational quotes
-            </li>
-            <li>Quotes changed depending on environmental variables</li>
-        </ul>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Martin's Projects</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="fun.html">Fun Stuff</a></li>
+      </ul>
     </div>
-</body>
-</html>
+  </div>
+    <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell">
+                <h1>Projects</h1>
+            </div>
+        </div>
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12 medium-6">
+                <div class="card">
+                    <img src="images/i18.png" alt="The translated side of the Tech Lockdown website">
+                    <div class="card-section">
+                        <h2>Tech Lockdown Internship</h2>
+                        <h3>Enabling i18 Support for Marketing Site</h3>
+                        <p>The purpose of this project was to try to extend the company's marketing content to other languages in order to attract users from non-english speaking locales.</p>
+                        <ul>
+                            <li>Extended a translation plugin for the legacy CMS software to enable the site's marketing content to be translated</li>
+                            <li>Implemented support for translated content on the marketing site</li>
+                            <li>Consolidated front-end code to be more maintainable in the future</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6">
+                <div class="card">
+                    <img src="images/dev-box.png" alt="The development-side editing box">
+                    <div class="card-section">
+                        <h2>Tech Lockdown Internship</h2>
+                        <h3>Quality of Life Improvements On Dev Side of Marketing Site</h3>
+                        <p>The purpose of this was to make editing marketing content easier by having buttons that would link to relevant data about the content being edited on the dev side.</p>
+                        <ul>
+                            <li>Added buttons on dev side that allowed for easier editing of content</li>
+                            <li>Ported these changes over to new i18 side of marketing site as well</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-12 medium-6">
+                <div class="card">
+                    <img src="images/inspiration-generator.png" alt="Screenshot from the project">
+                    <div class="card-section">
+                        <h2>Harvard's CS50x</h2>
+                        <h3>Inspiration Generator</h3>
+                        <p>The purpose of this project was to experiment building a web application that utilized dynamic elements requiring actual code.</p>
+                        <ul>
+                            <li>Using Python and Django, developed a web app that dynamically displayed inspirational quotes</li>
+                            <li>Quotes changed depending on environmental variables</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).foundation();
+    </script>

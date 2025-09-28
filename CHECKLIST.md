@@ -17,8 +17,7 @@ This markdown file serves as the checklist to complete this instruction from the
 - Created fun.html
     - Added section describing fun stuff about me
     - Included media (images, videos, and/or links)
-
-
+- Created a coherent CSS style for all pages
 - Implemented navigation between all four pages with a navigation bar
-
+- Ensured site was responsive and worked well on mobile and desktop
 - Followed best practices with links, images, font size, and image size

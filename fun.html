@@ -7,37 +7,66 @@
   <meta name="description" content="" />
   <link rel="icon" href="images/favicon.ico">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <ul class="nav">
-            <li><a href="index.html" target="_self">Home</a></li>
-            <li><a href="projects.html" target="_self">Projects</a></li>
-            <li><a href="resume.html" target="_self">Resume</a></li>
-            <li><a href="fun.html" target="_self">Fun Stuff</a></li>
-        </ul>
-    </nav>
-    <div class="text-content">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Fun Stuff</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="fun.html">Fun Stuff</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell">
         <h1>Fun Stuff!</h1>
         <h2>Interesting Stuff About Myself</h2>
-        <ul>
-            <li>My hobbies include lifting weights, paddle boarding, and coding.</li>
-        </ul>
-        <img src="/images/coding.jpeg" alt="Me coding" class="coding"/>
-        <ul>
-            <li>Some of my aspirations include running a 5k, buying a house on the North Shore,
-                working remotely full time, and creating entrepreneurial side projects.
-            </li>
-        </ul>
-        <img src="/images/north-shore.jpg" alt="The North shore" class="north-shore"/>
-        <ul>
-        <li>My family has a German Shepard named Roscoe, a Shitzu named Cookie, and a tabby named Penny.</li>
-        </ul>    
-        <img src="/images/pets.jpeg" alt="My dogs" class="dogs"/>
-        <ul>
-            <li>My favorite music genres are classical and 
-            <a href="https://www.youtube.com/watch?v=cVFzblT5VPE&t=1402s" target="_blank">electronic music.</a></li>
-        </ul>
+      </div>
     </div>
+    <div class="grid-x grid-margin-x">
+      <div class="cell small-12 medium-6">
+        <div class="card">
+          <img src="images/coding.jpeg" alt="Me coding">
+          <div class="card-section">
+            <p>My hobbies include lifting weights, paddle boarding, and coding.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-12 medium-6">
+        <div class="card">
+          <img src="images/north-shore.jpg" alt="The North shore">
+          <div class="card-section">
+            <p>Some of my aspirations include running a 5k, buying a house on the North Shore, working remotely full time, and creating entrepreneurial side projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-12 medium-6">
+        <div class="card">
+          <img src="images/pets.jpeg" alt="My dogs">
+          <div class="card-section">
+            <p>My family has a German Shepard named Roscoe, a Shitzu named Cookie, and a tabby named Penny.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-12 medium-6">
+        <div class="card">
+          <img src="images/djs.jpeg" alt="Electronic artists">
+          <div class="card-section">
+            <p>My favorite music genres are classical and <a href="https://www.youtube.com/watch?v=cVFzblT5VPE&t=1402s" target="_blank">electronic music.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
